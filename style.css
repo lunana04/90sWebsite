@@ -1,0 +1,23 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: linear-gradient( 0deg,#ffd7eb, #fcfcfc 50%);
+    background-repeat: no-repeat;
+    /*background-color: color-mix(in --swop5c, rgb(188, 200, 218), rgb(243, 236, 218)); */
+}
+
+nav ul li a {
+    border: 1px solid purple;
+    border-radius: 1em;
+    padding: 0.3em; 
+    text-decoration: none;
+}
+
+nav ul li {
+    list-style: none; 
+    display: inline-block; 
+}
+
+.current {
+    background-color: violet;
+    
+}
