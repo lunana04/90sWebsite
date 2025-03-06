@@ -9,7 +9,9 @@ nav ul li a {
     border: 1px solid purple;
     border-radius: 1em;
     padding: 8px; 
-    text-decoration: none;      
+    text-decoration: none;  
+    background-color: white;    
+    
 
       }
       
@@ -17,7 +19,9 @@ nav ul li a {
 
 nav ul li {
     list-style: none; 
-    display: inline-block; 
+    display: grid; 
+    margin: 5px; 
+    
 }
 
 .current {
@@ -30,17 +34,15 @@ table, tr , td{
     border: 1px solid black;
 }
 
-table td:nth-child(3) {    
-    border: none;
-  }
-  
   nav {
-    height: 200px;
-    width: 150px;
+    height: 150px;
+    width: 140px;
+    border-radius: 1em 0 0 1em;
     position: fixed;
     top: 0;
     right: 0;
-    padding-top: 40px;
+    padding-top: 20px;
+    padding-right: 10px;
     background-color: lightblue;
   }
 
