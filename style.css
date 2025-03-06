@@ -8,9 +8,12 @@ body{
 nav ul li a {
     border: 1px solid purple;
     border-radius: 1em;
-    padding: 0.3em; 
-    text-decoration: none;
-}
+    padding: 8px; 
+    text-decoration: none;      
+
+      }
+      
+
 
 nav ul li {
     list-style: none; 
@@ -21,3 +24,23 @@ nav ul li {
     background-color: violet;
     
 }
+
+table, tr , td{
+    border-collapse: collapse; 
+    border: 1px solid black;
+}
+
+table td:nth-child(3) {    
+    border: none;
+  }
+  
+  nav {
+    height: 200px;
+    width: 150px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding-top: 40px;
+    background-color: lightblue;
+  }
+
