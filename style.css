@@ -35,8 +35,8 @@ table, tr , td{
 }
 
   nav {
-    height: 150px;
-    width: 140px;
+    height: 180px;
+    width: 150px;
     border-radius: 1em 0 0 1em;
     position: fixed;
     top: 0;
